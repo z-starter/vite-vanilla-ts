@@ -3,6 +3,7 @@
 }
 
 .container {
+  all: inherit;
   display: grid;
   width: 100%;
   grid-template-areas:
