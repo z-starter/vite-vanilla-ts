@@ -116,4 +116,5 @@ export class Counter extends HTMLDivElement {
   )
 }
 
-customElements.define(TAG_NAME, Counter, { extends: "div" })
+if (!customElements.get(TAG_NAME))
+  customElements.define(TAG_NAME, Counter, { extends: "div" })
