@@ -39,25 +39,6 @@ yarn dev
 4. **Open your browser**
 Navigate to `http://localhost:5173` (or the port shown in your terminal)
 
-## 📁 Project Structure
-
-```
-vite-vanilla-ts/
-├── src/                    # Source files
-│   ├── assets/            # Static assets (images, fonts, etc.)
-│   ├── styles/            # SCSS stylesheets
-│   │   └── main.scss      # Main stylesheet
-│   ├── main.ts            # Application entry point
-│   └── vite-env.d.ts      # Vite type declarations
-├── public/                # Public assets (copied directly to dist)
-│   └── vite.svg           # Example static asset
-├── index.html             # HTML entry point
-├── vite.config.ts         # Vite configuration
-├── tsconfig.json          # TypeScript configuration
-├── package.json           # Dependencies and scripts
-└── yarn.lock              # Yarn lockfile
-```
-
 ## 📦 Available Scripts
 
 | Command | Description |
