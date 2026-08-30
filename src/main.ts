@@ -12,7 +12,6 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 `
 
 const counterRef = document.querySelector<Counter>("#counter")!
-counterRef.addEventListener(
-  "counter-click",
-  (e) => (counterRef.count += e.detail.count),
-)
+counterRef.addEventListener("counter-click", (e) => {
+  counterRef.count += (e as any).detail.value.count
+})

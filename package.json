@@ -5,13 +5,32 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "docs": "typedoc",
+    "docs:watch": "typedoc --watch",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
-    "@o.z/vite-plugin-swc": "^0.7.0",
-    "sass": "^1.98.0",
-    "typescript": "^6.0.2",
-    "vite": "^8.0.2"
+    "@o.z/vite-plugin-swc": "^0.19.0",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/user-event": "^14.6.6",
+    "@types/jsdom": "^30.0.0",
+    "@types/node": "^26.4.0",
+    "@vitest/coverage-v8": "^4.1.11",
+    "@vitest/ui": "^4.1.11",
+    "glob": "^13.0.6",
+    "jsdom": "^30.0.1",
+    "sass": "^1.103.1",
+    "typedoc": "^0.28.20",
+    "typedoc-plugin-markdown": "^4.13.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11"
   },
-  "packageManager": "yarn@4.13.0"
+  "packageManager": "yarn@4.18.0",
+  "dependencies": {
+    "@o.z/zui": "^0.10.0"
+  }
 }
