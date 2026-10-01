@@ -32,5 +32,8 @@
   "packageManager": "yarn@4.18.0",
   "dependencies": {
     "@o.z/zui": "^0.10.0"
+  },
+  "resolutions": {
+    "@swc/core": "^1.4.2"
   }
 }
